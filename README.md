@@ -54,8 +54,7 @@ http://127.0.0.1:5000
 
 📸 Screenshots
 
-<img width="600" height="269" alt="Screenshot 2025-08-14 113353" src="https://github.com/user-attachments/assets/08c1785a-f034-4003-b11f-01a9c94d71c6" />
-
+<img width="840" height="727" alt="Screenshot 2025-08-14 113353" src="https://github.com/user-attachments/assets/dbee9a28-58cd-4b40-827f-d7e4210322f4" />
 
 <img width="968" height="858" alt="Screenshot 2025-08-14 113448" src="https://github.com/user-attachments/assets/e839397e-72ae-4031-94cb-e0e5bfcf21a7" />
 
