@@ -32,6 +32,8 @@ Database: JSON-based data (for doctors & chatbot knowledge base)
 Other: FPDF for PDF generation, Web Speech API for voice input
 
 📂 PROJECT STRUCTURE:
+
+
 <img width="633" height="414" alt="image" src="https://github.com/user-attachments/assets/f1e39d2d-4f83-461e-bf28-559e685a3433" />
 
 
