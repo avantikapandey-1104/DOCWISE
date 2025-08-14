@@ -57,9 +57,11 @@ http://127.0.0.1:5000
 <img width="462" height="400" alt="Screenshot 2025-08-14 113353" src="https://github.com/user-attachments/assets/b0385845-e4cc-4295-bad5-f80a65d5f2e6" />
 
 
-<img width="968" height="858" alt="Screenshot 2025-08-14 113448" src="https://github.com/user-attachments/assets/e839397e-72ae-4031-94cb-e0e5bfcf21a7" />
+<img width="451" height="400" alt="Screenshot 2025-08-14 113448" src="https://github.com/user-attachments/assets/ef2e4866-7fcf-4290-8e07-79154d530af3" />
 
-<img width="1226" height="565" alt="Screenshot 2025-08-14 113616" src="https://github.com/user-attachments/assets/c06764ff-2370-4c2d-9063-c75d12990553" />
+
+<img width="868" height="400" alt="Screenshot 2025-08-14 113616" src="https://github.com/user-attachments/assets/4d11b0b5-9208-4e66-824a-c921d5cf6b81" />
+
 
 
 📅 Future Enhancements
