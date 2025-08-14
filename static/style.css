@@ -1,0 +1,136 @@
+/* ===== General Page Styling ===== */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5fdf6;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+}
+
+/* ===== Section Headings ===== */
+h2, h3 {
+    color: #28a745;
+    margin-bottom: 10px;
+    text-align: center; /* Added for centering headings */
+}
+
+/* ===== Diagnosis Result ===== */
+#diagnosis-box {
+    background-color: #eaffea;
+    border: 2px solid #28a745;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* ===== Doctor List ===== */
+ul {
+    list-style: square;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+ul li {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+/* ===== Appointment Form ===== */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #28a745;
+    border-radius: 12px;
+    width: 350px;
+    max-width: 100%;
+    margin: 0 auto 25px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+form label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"],
+form input[type="time"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+form button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+form button[type="button"] {
+    background-color: #39a251;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    width: 50%;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+form button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* ===== PDF Download Button ===== */
+.download-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
+
+/* ===== Back to Home Link ===== */
+a {
+    color: #28a745;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* === Center All Content === */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}

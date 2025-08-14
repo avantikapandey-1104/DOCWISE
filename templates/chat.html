@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>🧠 Ask Your Health Questions</h2>
+
+    <form action="/chat" method="post">
+        <input type="text" name="question" placeholder="Ask anything about health..." required style="width: 60%; padding: 8px;">
+        <button type="submit">Ask</button>
+    </form>
+
+    {% if question %}
+        <div style="margin-top: 20px;">
+            <strong>You:</strong> {{ question }}<br><br>
+            <strong>Bot:</strong> {{ answer }}
+        </div>
+    {% endif %}
+    
+    <br><a href="/">🏠 Back to Home</a>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diagnosis Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Hello, {{ name }}!</h2>
+
+        <div id="diagnosis-box">
+            <h3>Your Health Diagnosis:</h3>
+            <p>{{ diagnosis }}</p>
+        </div>
+
+        <h3>Recommended Doctors in Your Area:</h3>
+        <ul>
+          {% for doctor in doctors %}
+            <li>{{ doctor }}</li>
+          {% endfor %}
+        </ul>
+
+        <h3>Book an Appointment</h3>
+        <form action="/book" method="post">
+            <label for="doctor">Select Doctor:</label>
+            <select name="doctor" required>
+                {% for doctor in doctors %}
+                    <option value="{{ doctor }}">{{ doctor }}</option>
+                {% endfor %}
+            </select>
+
+            <label for="date">Select Date:</label>
+            <input type="date" name="date" required>
+
+            <label for="time">Select Time:</label>
+            <input type="time" name="time" required>
+
+            <input type="hidden" name="name" value="{{ name }}">
+            <button type="submit">Book Appointment</button>
+        </form>
+
+        {% if report_file %}
+        <a href="{{ url_for('static', filename=report_file) }}" download class="download-btn">
+            📄 Download PDF Report
+        </a>
+        {% endif %}
+
+        <br>
+        <a href="/">🏠 Back to Home</a>
+    </div>
+</body>
+
+</html>
